@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLNome" pref="97" max="32767" attributes="0"/>
+                          <Component id="jLData" max="32767" attributes="0"/>
+                          <Component id="jLHoraInicio" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="jLHoraTermino" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jLPublico" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLDescricao" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLLocal" alignment="0" pref="97" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="jLCapacidade" alignment="0" min="-2" pref="121" max="-2" attributes="0"/>
+                      <Component id="jLOrganizador" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jTextNome" max="32767" attributes="0"/>
+                      <Component id="jTextData" max="32767" attributes="0"/>
+                      <Component id="jTextHoraInicio" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jTextHoraTerminio" max="32767" attributes="0"/>
+                      <Component id="jTextLocal" max="32767" attributes="0"/>
+                      <Component id="jTextDescricao" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jTextPublico" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jTextCapacidade" max="32767" attributes="0"/>
+                      <Component id="jTextOrganizador" pref="285" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="112" max="-2" attributes="0"/>
+                  <Component id="jBVoltar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="195" max="32767" attributes="0"/>
+                  <Component id="jBAvancar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="134" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLData" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextData" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLHoraInicio" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextHoraInicio" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLHoraTermino" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextHoraTerminio" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLLocal" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextLocal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLDescricao" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextDescricao" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLPublico" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextPublico" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLCapacidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextCapacidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jLOrganizador" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextOrganizador" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="57" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jBVoltar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jBAvancar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLNome">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nome do Evento:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLData">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Data do Evento:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLHoraTermino">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Hor&#xe1;rio de T&#xe9;rmino:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLHoraInicio">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Hor&#xe1;rio de In&#xed;cio:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLLocal">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Local do Evento:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLDescricao">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLCapacidade">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Capacidade M&#xe1;xima:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLPublico">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="P&#xfa;blico Alvo:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLOrganizador">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Organizador:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextNome">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextData">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextHoraInicio">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextHoraTerminio">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextLocal">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextDescricao">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextPublico">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextCapacidade">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextOrganizador">
+        </Component>
+        <Component class="javax.swing.JButton" name="jBVoltar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Voltar"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jBAvancar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Avan&#xe7;ar"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
