@@ -33,5 +33,6 @@ Cada classe representa uma parte distinta do sistema e suas interações ajudam 
 Antes de executar o projeto, verifique se você possui os seguintes pré-requisitos:
 
 - **Java Development Kit (JDK)**: Certifique-se de ter o JDK instalado. A versão recomendada é a 11 ou superior.
-- **IDE (Opcional)**: Embora não seja necessário, é recomendável usar uma IDE como IntelliJ IDEA, Eclipse ou NetBeans para facilitar o desenvolvimento e depuração.
+- **IDE (Opcional)**: Embora não seja necessário, é recomendável usar uma IDE como NetBeans para facilitar o desenvolvimento e depuração.
+- **Para RODAR o projeto, vai precisar rodar o BANCO De dados através do DBEAVER. "Existe uma pasta" dentro do projeto com os scripts do projeto integrador.
 
